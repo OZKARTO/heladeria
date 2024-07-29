@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuNenitas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cajera.css">
+</head>
+<body>
+    <nav class="navbar  ">
+        <div class="container-fluid justify-content-center">
+            <% if (rol === 3) { %>
+                <a href="/logout" class="logout">Logout</a>
+                
+            <% } else { %>
+                <a href="/admin/index" class="logout">Volver</a>
+            <% } %> 
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row" id="contenedorMesas">
+            <!-- Botones de mesas se insertarán aquí -->
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="detallePedidoModal" tabindex="-1" role="dialog" aria-labelledby="detallePedidoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detallePedidoModalLabel">Factura</h5>
+                    <button type="button" class="close btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="detallePedidoModalBody">
+                    <!-- Detalles del pedido se insertarán aquí -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/cajera.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

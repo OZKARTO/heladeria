@@ -1,0 +1,36 @@
+.report-container {
+    margin: 20px;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+  }
+ 
+  .navbar{
+    height: 40px;
+    background-color: rgb(207, 202, 202);
+  }
+  .navbar:hover{
+    background-color: red;
+  }
+
+  .logout{
+    display: flex;
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logout:hover{
+    color: white;
+  }
+  #ventasChart {
+    width: 100% !important;
+    height: 400px !important; /* Puedes ajustar la altura según tus necesidades */
+  }

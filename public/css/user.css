@@ -1,0 +1,61 @@
+body{
+    background-color: #F8F9F9;
+    padding: 0;
+    margin: 0;
+  }
+  .fa-trash {
+    margin-left: 20px;
+  }
+  .busqueda{
+    width: 20%;
+  }
+  .navbar{
+    height: 40px;
+    background-color: rgb(207, 202, 202);
+  }
+  .navbar:hover{
+    background-color: red;
+  }
+
+  .logout{
+    display: flex;
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logout:hover{
+    color: white;
+  }
+
+
+
+  /* Estilos para el modal de crear usuario */
+.modal-content {
+  border-radius: 15px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+  border-radius: 15px 15px 0 0;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-radius: 0 0 15px 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.fa-solid:hover{
+  cursor: pointer;
+}
+

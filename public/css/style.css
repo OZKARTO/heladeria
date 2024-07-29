@@ -1,0 +1,117 @@
+body{
+    background-color: #f2f0f3;
+  }
+  .btn1{
+    background-color: #ff81de;
+    color:white;
+    transition: background-color 0.3s;
+    width: 70%;
+  }
+  .btn1:hover{
+    background-color: #eec8e4; 
+    color: white;
+
+  }
+
+
+
+  /*estiolo mesera index*/
+  
+  .modal-backdrop.show-second-modal {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    z-index: 1040; /* Para que esté detrás del segundo modal pero encima del primer modal */
+}
+
+
+  .img{
+    width: 150px;
+  }
+
+  .na{
+    height: 40px;
+    background-color: rgb(207, 202, 202);
+  }
+  .na:hover{
+    background-color: red;
+  }
+
+  .logout{
+    display: flex;
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logout:hover{
+    color: white;
+  }
+
+a{
+  text-decoration: none;
+  
+}
+  .imgProduc {
+    width: 100%;
+    height: 300px; /* Asegurarse de que la imagen tenga una altura fija */
+    object-fit: cover; /* Ajuste para que la imagen cubra completamente el área asignada */
+    border-radius: 0.25rem; /* Bordes redondeados */
+}
+
+.card {
+    margin-bottom: 20px; /* Separación inferior para la tarjeta */
+    border: 1px solid #e0e0e0; /* Borde ligero alrededor de la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+}
+
+.card-body {
+    padding: 15px; /* Espaciado interno */
+}
+
+.form-label {
+    margin-bottom: 5px; /* Espaciado inferior para las etiquetas */
+}
+
+.form-control {
+    margin-bottom: 10px; /* Espaciado inferior para los campos del formulario */
+}
+
+
+
+  /*Estilos vista ver pedidios-mesera*/
+.btnpedido{
+  height: 8rem;
+  width: 10rem;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  background-color: red;
+}
+
+.btnpedido:hover{
+  background-color: #eca5a5;
+  color: white;
+}
+
+
+/* Añade estos estilos a tu archivo CSS */
+.vh-100 {
+  min-height: 100vh;
+}
+
+.card {
+  width: 100%;
+}
+
+#contenedorPedidos {
+  overflow-y: auto;
+  max-height: 80vh; /* Ajusta este valor según tus necesidades */
+}
+
+@media (max-width: 576px) {
+  .card {
+      margin-bottom: 20px;
+  }
+}
